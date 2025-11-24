@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Kakfa\" />
+      <Folder Include="OpenTelemetry\" />
+      <Folder Include="PostgreSQL\" />
+      <Folder Include="Redis\" />
+    </ItemGroup>
+
+</Project>
