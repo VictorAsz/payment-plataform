@@ -25,10 +25,8 @@ jobs:
 
       # TESTES (roda em tudo dentro de ./tests)
       - name: Run tests with coverage
-        run: dotnet test payment-plataform.sln \
-              --collect:"XPlat Code Coverage" \
-              --results-directory "coverage" \
-              --verbosity normal
+        run: dotnet test payment-plataform.sln --collect:"XPlat Code Coverage" --results-directory "coverage" --verbosity normal
+
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
