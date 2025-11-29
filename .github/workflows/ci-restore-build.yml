@@ -1,4 +1,4 @@
-name: Restore & Build
+name: Restore
 
 on:
   push:
